@@ -1,4 +1,4 @@
-# mobileappsideproject
+# Mobile App Side Project
 
 A mobile app side project
 
