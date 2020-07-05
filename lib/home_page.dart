@@ -1,11 +1,18 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'settings_page.dart';
+import 'capture_page.dart';
+
+import 'package:camera/camera.dart';
+import 'package:path_provider/path_provider.dart';
+import 'package:path/path.dart';
 
 class HomePage extends StatefulWidget {
-  HomePage({Key key, this.title}) : super(key: key);
 
   final String title;
+  final CameraDescription camera;
+
+  const HomePage({Key key, this.title, @required this.camera,}) : super(key: key);
 
   @override
   _HomePageState createState() => _HomePageState();
@@ -55,6 +62,12 @@ class _HomePageState extends State<HomePage> {
                       color: Color(0xff121212),
                     ),
                   ),
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => CapturePage(camera: widget.camera)),
+                    );
+                  },
                 ),
               ),
               Card(

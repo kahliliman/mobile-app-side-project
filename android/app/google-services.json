@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "735885974028",
+    "firebase_url": "https://remote-attendance-mobile.firebaseio.com",
+    "project_id": "remote-attendance-mobile",
+    "storage_bucket": "remote-attendance-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735885974028:android:dfde14c23cdaab28302c29",
+        "android_client_info": {
+          "package_name": "com.kahliliman.mobileappsideproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735885974028-1m0pt94fbbnl5d409ah63lg47182q0gl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDEINNgFcb0MYyCI1wGMHQEbFlCqNNg4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735885974028-1m0pt94fbbnl5d409ah63lg47182q0gl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
