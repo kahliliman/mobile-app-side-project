@@ -8,6 +8,7 @@ import 'package:camera/camera.dart';
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'push_notification_service.dart';
 
 //ONE
 //void main() => runApp(RemoteAttendance());
@@ -79,6 +80,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 //THREE
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  await PushNotificationService().initialize();
 
   final cameras = await availableCameras();
 

@@ -6,6 +6,7 @@ import 'capture_page.dart';
 import 'package:camera/camera.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:path/path.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 
 class HomePage extends StatefulWidget {
 
